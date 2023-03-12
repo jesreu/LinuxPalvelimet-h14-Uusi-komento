@@ -106,7 +106,7 @@ Luodaan uusi komento kaikille käyttäjille, joka vaikuttaa useaempaan tiedostoo
 
 ![image](https://user-images.githubusercontent.com/112503770/224576313-fd5946f3-b634-488f-bab8-5279ff0d27ed.png)
 
-Komento tulostaa kaikki rivit nykyisen hakemiston tiedostoista, jossa on sana kissa. Komentoon lisätty if lause, että komento päteee vain tiedostoihin. Testataan komentoa.
+Komento tulostaa kaikki rivit nykyisen hakemiston tiedostoista, jossa on sana kissa. Komentoon lisätty if lause, että komento pätee vain tiedostoihin. Testataan komentoa.
 
     bash monikomente
 
