@@ -28,10 +28,11 @@ Luodaan uusi komento kaikille käyttäjille käyttäen bash- kieltä. `micro kom
 
 ![image](https://user-images.githubusercontent.com/112503770/224565646-7c55d3ea-7b4b-4626-beaa-2707432e7062.png)
 
-![image](https://user-images.githubusercontent.com/112503770/224565985-25ef82d4-234c-405d-90ed-337d8c1e0673.png)
-
     sudo cp ./komento /usr/local/bin/
     komento
+
+![image](https://user-images.githubusercontent.com/112503770/224565985-25ef82d4-234c-405d-90ed-337d8c1e0673.png)
+
 
 ## b)
 Luodaan uusi komento kaikille käyttäjille käyttäen python- kieltä.
