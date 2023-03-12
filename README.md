@@ -93,6 +93,8 @@ Toimii taas! Viimeisenä testinä kokeillaan eri käyttäjällä.
 
 ## c)
 Luodaan uusi komento kaikille käyttäjille, joka vaikuttaa useaempaan tiedostoon.
+
+
 Käytetty aika: 1h + ?
 ## Lähteet:
     https://terokarvinen.com/2023/linux-palvelimet-2023-alkukevat/
