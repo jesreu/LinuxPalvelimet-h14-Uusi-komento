@@ -94,11 +94,45 @@ Toimii taas! Viimeisenä testinä kokeillaan eri käyttäjällä.
 ## c)
 Luodaan uusi komento kaikille käyttäjille, joka vaikuttaa useaempaan tiedostoon.
 
-![image](https://user-images.githubusercontent.com/112503770/224574658-9b3c1c15-4503-4a95-a37b-266f24c0d528.png)
+    micro monikomente
+    #!/usr/bin/bash
+    
+    for file in *
+    do
+        if [ -f $file ];
+            then grep -H "kissa" $file
+        fi
+    done
 
+![image](https://user-images.githubusercontent.com/112503770/224576313-fd5946f3-b634-488f-bab8-5279ff0d27ed.png)
 
+Komento tulostaa kaikki rivit nykyisen hakemiston tiedostoista, jossa on sana kissa. Komentoon lisätty if lause, että komento päteee vain tiedostoihin. Testataan komentoa.
 
-Käytetty aika: 1h + ?
+    bash monikomente
+
+![image](https://user-images.githubusercontent.com/112503770/224576544-cb181c58-8146-4103-b854-ae7f4c8d635b.png)
+
+Huomataan, että komento tulostaa osan itsestään, koska komento on tallennettuna siihen hakemistoon. Annetaan komennolle ajo-oikeudet ja testataan sitä.
+
+    chmod ugo+x monikomente
+    ./monikomente
+    
+![image](https://user-images.githubusercontent.com/112503770/224576629-e850fb4e-bc79-46fb-bb67-1faaf22d17bf.png)
+
+Toimii hyvin, nyt tehdään komento järjestelmän kattavaksi.
+
+    sudo cp ./monikomente /usr/local/bin/
+    monikomente
+
+![image](https://user-images.githubusercontent.com/112503770/224576720-997ddb04-81e5-40d5-97cc-1ec52d41f920.png)
+
+Testaan vielä toisella käyttäjällä. Tein testin samassa hakemistossa kuin aiemmat, jotta nähdään, että komento osaa löytää oikeat tiedot.
+
+![image](https://user-images.githubusercontent.com/112503770/224576745-def374f4-6a34-4e25-a22b-d53c1ad76401.png)
+
+Toimii hyvin.
+
+Käytetty aika: 3h
 ## Lähteet:
     https://terokarvinen.com/2023/linux-palvelimet-2023-alkukevat/
     https://linuxputkis.wordpress.com/?query-8-page=2
