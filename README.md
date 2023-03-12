@@ -51,7 +51,7 @@ Luodaan uusi komento kaikille käyttäjille käyttäen python- kieltä. Tehdää
     
 ![image](https://user-images.githubusercontent.com/112503770/224568564-729e7edc-d99f-4500-a313-bb45854ec9e4.png)
 
-Komento kysyy käyttäjältä Kuka olet?, johon käyttäjä voi vastata miten haluaa. Käyttäjän syötetty halutun tiedon komento tulostaa tervehdysviestin.
+Komento kysyy käyttäjältä Kuka olet?, johon käyttäjä voi vastata miten haluaa. Käyttäjän syötetyn tiedon perusteella komento tulostaa tervehdysviestin.
 
     pyhton3 terve
     Kuka olet? Jesse
