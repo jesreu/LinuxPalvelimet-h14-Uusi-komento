@@ -6,19 +6,19 @@
 
 Aloitus klo 19:30
 ## a)
-Luodaan uusi komento kaikille käyttäjille käyttäen bash- kieltä. Luodaan uusi komento käyttämällä micro- tekstieditoria. Komento tervehtii käytössä olevaa käyttäjää.
+Luodaan uusi komento kaikille käyttäjille käyttäen bash- kieltä. Komento tervehtii käytössä olevaa käyttäjää.
 
     micro komento
 
 ![image](https://user-images.githubusercontent.com/112503770/224565514-150d5dbc-11a0-4303-bfc2-bc567d4a1ff2.png)
 
-Kokeillaan ajaa luotu komento, komennolla:
+Kokeillaan ajaa luotu komento:
 
     bash komento
 
 ![image](https://user-images.githubusercontent.com/112503770/224565537-ed33cdae-f9e8-4e67-9391-84fec3c51979.png)
 
-Lisätään x: siis ajo-oikeus komennolla chmod.
+Lisätään x: siis ajo(execute) oikeus komennolla chmod.
 
     chmod ugo+x komento
 
@@ -31,7 +31,7 @@ Testataan komennon suorittamista.
 
 ![image](https://user-images.githubusercontent.com/112503770/224565646-7c55d3ea-7b4b-4626-beaa-2707432e7062.png)
 
-Huomataan, että pelkkä komento ei vielä toimi, mutta `./komento toimii`. Komento pitää vielä siirtää hakemistoon, josta se voidaan ajaa koko järjestelmän sisäisesti. Testataan kopioinnin jälkeen `komento` .
+Huomataan, että pelkkä komento ei vielä toimi, mutta `./komento` toimii. Komento pitää vielä siirtää hakemistoon, josta se voidaan ajaa koko järjestelmän sisäisesti. Testataan kopioinnin jälkeen `komento` .
 
     sudo cp ./komento /usr/local/bin/
     komento
