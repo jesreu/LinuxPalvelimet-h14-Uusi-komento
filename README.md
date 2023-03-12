@@ -53,7 +53,7 @@ Luodaan uusi komento kaikille käyttäjille käyttäen python- kieltä. Tehdää
 
 Komento kysyy käyttäjältä Kuka olet?, johon käyttäjä voi vastata miten haluaa. Käyttäjän syötetyn tiedon perusteella komento tulostaa tervehdysviestin.
 
-    pyhton3 terve
+    python3 terve
     Kuka olet? Jesse
     Hei! Jesse
 
@@ -93,6 +93,9 @@ Toimii taas! Viimeisenä testinä kokeillaan eri käyttäjällä.
 
 ## c)
 Luodaan uusi komento kaikille käyttäjille, joka vaikuttaa useaempaan tiedostoon.
+
+![image](https://user-images.githubusercontent.com/112503770/224574658-9b3c1c15-4503-4a95-a37b-266f24c0d528.png)
+
 
 
 Käytetty aika: 1h + ?
